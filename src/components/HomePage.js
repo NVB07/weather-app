@@ -23,7 +23,7 @@ function HomePage() {
                         <p className="text-[#686868] my-5">
                             Find out what can be waiting for you <br /> on the street with a few taps
                         </p>
-                        <Link href="/search">
+                        <Link href="/search" className="w-fit block">
                             <div className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-48 text-center">Search now</div>
                         </Link>
                     </div>
